@@ -31,9 +31,8 @@ export const projects: Project[] = [
     outcome: "1st place at Google PM Hackathon 2026, beating 30+ MIT teams",
     name: "CarePrice",
     bullets: [
-      "Shows patients **upfront, transparent prices** for care across hospitals — tackling the problem that **4 in 5 US adults don't know costs** before receiving care, and that surprise bills have pushed **50%+ into medical debt** over the last five years",
-      "Surfaces **financial assistance options** patients are otherwise unaware of, going beyond competitors that show only price or only aid — enabled by recent regulation (the **2022 No Surprises Act**)",
-      "**Gives power back to patients** by combining cost transparency with financial assistance and, in the premium tier, **AI-enabled coupon search and bill negotiation** — so people can shop and plan for non-emergency care before they're billed",
+      "**4 in 5 US adults** don't know care costs before treatment — so we built a **hospital price transparency platform** that lets patients compare costs across hospitals, factoring in their specific insurance policy",
+      "We also use **AI to surface financial assistance options** patients are otherwise unaware of, reducing out-of-pocket costs beyond what price transparency alone can achieve",
     ],
     role: "Co-creator & lead presenter (team of 5)",
     meta: "Google PM Hackathon · MIT · 2026",

@@ -127,19 +127,6 @@ export default function Home() {
                   ))}
                 </ul>
                 <div className="mt-auto pt-4">
-                  <p className="text-xs text-faint">{project.role}</p>
-                  {project.tags && project.tags.length > 0 && (
-                    <ul className="mt-2.5 flex flex-wrap gap-x-1.5 gap-y-1.5">
-                      {project.tags.map((tag) => (
-                        <li
-                          key={tag}
-                          className="rounded bg-surface px-2 py-0.5 font-mono text-xs text-muted"
-                        >
-                          {tag}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
                   {links.length > 0 && (
                     <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-sm">
                       {links.map((l) => (
