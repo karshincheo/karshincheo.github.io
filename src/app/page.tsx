@@ -183,7 +183,7 @@ export default function Home() {
                       key={group.label}
                       className="flex flex-col rounded-xl border border-line bg-bg p-6"
                     >
-                      <h4 className="eyebrow">{group.label}</h4>
+                      <h4 className="text-base font-semibold tracking-tight">{group.label}</h4>
                       <ul className="mt-3.5 space-y-2.5">
                         {group.bullets.map((b, i) => (
                           <li
