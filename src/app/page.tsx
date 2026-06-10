@@ -50,6 +50,14 @@ export default function Home() {
           >
             WhatsApp
           </a>
+          <a
+            href={site.links.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg border border-line px-5 py-2.5 text-sm font-medium transition-colors hover:border-fg"
+          >
+            LinkedIn
+          </a>
           <ResumeButton />
         </div>
       </section>
