@@ -32,29 +32,29 @@ export const experience: Role[] = [
       {
         label: "GTM & Partnerships",
         bullets: [
-          "Designed GTM and value-creation plans for five portfolio companies of a Malaysian investment holding company; presented directly to the CEO with projected equity uplift of ~$1.1B over five years.",
-          "Developed the GTM strategy for a leading Southeast Asian SME bank — projected to lift topline revenue 30% and halve customer onboarding time.",
+          "Designed GTM and value-creation plans for **five portfolio companies** of a Malaysian investment holding company; **presented directly to the CEO** with projected equity uplift of **~$1.1B over five years**.",
+          "Developed the GTM strategy for a leading Southeast Asian SME bank — projected to lift **topline revenue 30%** and **halve customer onboarding time**.",
         ],
       },
       {
         label: "Financial Modeling & Reporting",
         bullets: [
-          "Directed commercial due diligence and financial modeling for the acquisition of a Singaporean insurance company; the value-creation plan projected +7% growth and ~$400M in added annual revenue.",
-          "Established cross-country reporting across six subsidiaries of a top ASEAN bank to manage a 500-employee anti-financial-crime program.",
+          "Directed **commercial due diligence** and financial modeling for the **acquisition of a Singaporean insurance company**; the value-creation plan projected +7% growth and **~$400M in added annual revenue**.",
+          "Established cross-country reporting across **six subsidiaries** of a top ASEAN bank to manage a **500-employee anti-financial-crime program**.",
         ],
       },
       {
         label: "Operations",
         bullets: [
-          "Overhauled anti-money-laundering operations at a leading Malaysian bank, setting a compliance benchmark later adopted by two other major banks.",
-          "Designed the SME onboarding process for Malaysia's first digital bank, enabling unregistered businesses to access banking — 100,000+ sign-ups in the first two weeks.",
+          "Overhauled **anti-money-laundering operations** at a leading Malaysian bank, setting a compliance benchmark **later adopted by two other major banks**.",
+          "Designed the SME onboarding process for **Malaysia's first digital bank**, enabling unregistered businesses to access banking — **100,000+ sign-ups in the first two weeks**.",
         ],
       },
       {
         label: "AI/ML & Data Science",
         bullets: [
-          "Led a 3-person data-science team building an ML customer price-elasticity model for a global bank, boosting profitability ~5%.",
-          "Developed a customer risk-profiling model for a leading Malaysian bank — 30% fewer misclassified high-risk customers and 10% faster onboarding.",
+          "Led a 3-person data-science team building an **ML customer price-elasticity model** for a global bank, boosting **profitability ~5%**.",
+          "Developed a **customer risk-profiling model** for a leading Malaysian bank — **30% fewer misclassified** high-risk customers and **10% faster onboarding**.",
         ],
       },
     ],
@@ -69,14 +69,14 @@ export const experience: Role[] = [
       {
         label: "Product & Operations",
         bullets: [
-          "Built a digital credit-application platform that cut processing costs 60% and drove 400% year-on-year growth in the loan portfolio.",
-          "Designed a staged loan-disbursement model that enabled earlier detection of repayment risk, slashing non-performing loans 50%.",
+          "Built a **digital credit-application platform** that cut **processing costs 60%** and drove **400% year-on-year growth** in the loan portfolio.",
+          "Designed a **staged loan-disbursement model** that enabled earlier detection of repayment risk, slashing **non-performing loans 50%**.",
         ],
       },
       {
         label: "Fundraising",
         bullets: [
-          "Secured ~$230K in debt funding from a Bhutanese bank through debt-sustainability analysis and stakeholder negotiation — extending loans to 200+ rural families.",
+          "Secured **~$230K in debt funding** from a Bhutanese bank through debt-sustainability analysis and stakeholder negotiation — extending loans to **200+ rural families**.",
         ],
       },
     ],

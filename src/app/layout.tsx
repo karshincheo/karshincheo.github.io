@@ -12,13 +12,13 @@ const description = site.metaDescription;
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} — ${site.eyebrow}`,
+    default: `${site.name} — ${site.tagline}`,
     template: `%s — ${site.name}`,
   },
   description,
   alternates: { canonical: "/" },
   openGraph: {
-    title: `${site.name} — ${site.eyebrow}`,
+    title: `${site.name} — ${site.tagline}`,
     description,
     type: "website",
     siteName: site.name,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} — ${site.eyebrow}`,
+    title: `${site.name} — ${site.tagline}`,
     description,
   },
   robots: { index: true, follow: true },

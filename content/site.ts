@@ -1,6 +1,5 @@
 // ---------------------------------------------------------------------------
 // SITE CONTENT — edit this file to change your name, headline, bio, and links.
-// Anything marked TODO needs a real value from you.
 // ---------------------------------------------------------------------------
 
 // Your production domain (no trailing slash). Used for SEO, sitemap, OG, RSS.
@@ -14,8 +13,6 @@ if (
   process.env.NODE_ENV === "production" &&
   SITE_URL.includes("example.com")
 ) {
-  // Loud warning so a misconfigured deploy doesn't silently ship example.com
-  // into every share preview and the sitemap.
   console.warn(
     "[site] NEXT_PUBLIC_SITE_URL is not set — using https://example.com. " +
       "Set your real domain before sharing the site.",
@@ -26,20 +23,23 @@ export const site = {
   name: "Kar Shin Cheo",
   url: SITE_URL,
 
-  // The small label above the headline (rendered in mono).
-  eyebrow: "Strategy consultant · Ships AI products",
+  // Short tag used in the browser-tab title and the social share card.
+  tagline: "AI-native builder",
 
-  // Short positioning line shown in the hero. Keep it to one sentence.
+  // The headline shown in the hero.
   headline:
-    "I build GTM and product strategy — then execute it by shipping AI products.",
+    "AI-native builder, experienced in executing GTM and product strategy for corporations across Asia",
 
-  // 2–3 sentence intro. Strategy depth first, execution as the differentiator.
+  // Intro paragraphs under the headline.
   bio: [
-    "Ex-Oliver Wyman strategy consultant, now an MBA at MIT Sloan. I spent years building GTM and product strategy for banks, insurers, and fintechs across Southeast Asia — presenting straight to CEOs.",
-    "The difference: I don't stop at the strategy deck. I execute it — co-founding startups, winning hackathons, and shipping 10+ AI applications along the way.",
+    "Ex-Oliver Wyman strategy consultant. I spent years building GTM and product strategy for fintechs, private equity firms, and large corporations across Asia.",
+    "Now an MBA at MIT Sloan, transitioning into builder mode — co-founding startups, winning hackathons, and shipping 10+ AI applications along the way.",
   ],
 
-  // Scannable proof chips shown right under the bio (the 20-second skim).
+  // Circular photo shown next to the hero title. Replace public/profile.jpg.
+  photoPath: "/profile.jpg",
+
+  // Scannable proof chips shown under the bio (the 20-second skim).
   proofPoints: [
     "ex-Oliver Wyman",
     "1st place · Google PM Hackathon",
@@ -47,9 +47,9 @@ export const site = {
     "MIT Sloan MBA",
   ],
 
-  // Short meta description for SEO/social (aim ~150 chars). Distinct from bio.
+  // Short meta description for SEO/social (aim ~150 chars).
   metaDescription:
-    "Kar Shin Cheo is an ex-Oliver Wyman strategy consultant and MIT Sloan MBA who builds GTM and product strategy — then executes it by shipping AI products.",
+    "Kar Shin Cheo is an AI-native builder and MIT Sloan MBA — ex-Oliver Wyman, with years of GTM and product strategy for corporations across Asia.",
 
   // Where the resume PDF lives. Replace the file in public/ to swap it —
   // the filename is what recruiters see when they download it.
@@ -63,7 +63,7 @@ export const site = {
     whatsapp: "https://wa.me/60136669949",
     linkedin: "https://www.linkedin.com/in/karshincheo/",
     github: "https://github.com/karshincheo",
-    x: "", // TODO: add your X/Twitter URL, e.g. https://x.com/yourhandle
+    x: "", // add your X/Twitter URL to show it, e.g. https://x.com/yourhandle
   },
 };
 

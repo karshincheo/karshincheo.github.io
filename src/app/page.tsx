@@ -2,6 +2,7 @@ import { site } from "@content/site";
 import { projects } from "@content/projects";
 import { experience, education } from "@content/experience";
 import { ResumeButton } from "@/components/ResumeButton";
+import { renderBold } from "@/lib/format";
 
 export default function Home() {
   // Grid when everything fits; horizontal rail once there are 5+ projects.
@@ -11,10 +12,19 @@ export default function Home() {
     <div className="mx-auto w-full max-w-[90rem] px-6 sm:px-10 lg:px-16">
       {/* ---------------------------------------------------------------- HERO */}
       <section className="animate-fade-up pb-20 pt-20 sm:pt-28">
-        <p className="eyebrow mb-5">{site.eyebrow}</p>
-        <h1 className="max-w-4xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
-          {site.headline}
-        </h1>
+        <div className="flex flex-col-reverse gap-8 lg:flex-row lg:items-start lg:justify-between lg:gap-16">
+          <h1 className="max-w-4xl text-balance text-4xl font-semibold leading-[1.12] tracking-tight sm:text-5xl">
+            {site.headline}
+          </h1>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={site.photoPath}
+            alt={site.name}
+            width={176}
+            height={176}
+            className="h-28 w-28 shrink-0 rounded-full border border-line object-cover sm:h-36 sm:w-36 lg:h-44 lg:w-44"
+          />
+        </div>
         <div className="mt-7 max-w-2xl space-y-4 text-lg leading-relaxed text-muted">
           {site.bio.map((p, i) => (
             <p key={i}>{p}</p>
@@ -57,6 +67,14 @@ export default function Home() {
             className="rounded-lg border border-line px-5 py-2.5 text-sm font-medium transition-colors hover:border-fg"
           >
             LinkedIn
+          </a>
+          <a
+            href={site.links.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg border border-line px-5 py-2.5 text-sm font-medium transition-colors hover:border-fg"
+          >
+            GitHub
           </a>
           <ResumeButton />
         </div>
@@ -104,7 +122,7 @@ export default function Home() {
                       className="relative pl-4 text-sm leading-relaxed text-muted"
                     >
                       <span className="absolute left-0 top-[0.65em] h-px w-2 bg-faint" />
-                      {b}
+                      {renderBold(b)}
                     </li>
                   ))}
                 </ul>
@@ -186,7 +204,7 @@ export default function Home() {
                             className="relative pl-4 text-sm leading-relaxed text-muted"
                           >
                             <span className="absolute left-0 top-[0.65em] h-px w-2 bg-faint" />
-                            {b}
+                            {renderBold(b)}
                           </li>
                         ))}
                       </ul>
@@ -204,7 +222,7 @@ export default function Home() {
                       className="relative pl-5 leading-relaxed text-muted"
                     >
                       <span className="absolute left-0 top-[0.7em] h-px w-2.5 bg-faint" />
-                      {b}
+                      {renderBold(b)}
                     </li>
                   ))}
                 </ul>

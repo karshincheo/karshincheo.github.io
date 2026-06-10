@@ -13,7 +13,7 @@ export function StructuredData() {
     name: site.name,
     url: site.url,
     description: site.metaDescription,
-    jobTitle: "Strategy Consultant & AI Product Builder",
+    jobTitle: "AI-native builder",
     email: site.email,
     address: {
       "@type": "PostalAddress",
