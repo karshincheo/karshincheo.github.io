@@ -4,10 +4,10 @@
 // ---------------------------------------------------------------------------
 
 // Your production domain (no trailing slash). Used for SEO, sitemap, OG, RSS.
-// Set it via the NEXT_PUBLIC_SITE_URL env var on Vercel, OR hard-code it below.
-// TODO: replace the fallback with your real domain, e.g. "https://karshincheo.com"
+// Override via the NEXT_PUBLIC_SITE_URL env var, or change the fallback here
+// (e.g. when you buy a custom domain like karshincheo.com).
 const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://example.com"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://karshincheo.github.io"
 ).replace(/\/$/, "");
 
 if (
