@@ -12,7 +12,7 @@ export default function Home() {
     <div className="mx-auto w-full max-w-[90rem] px-6 sm:px-10 lg:px-16">
       {/* ---------------------------------------------------------------- HERO */}
       <section className="animate-fade-up pb-20 pt-20 sm:pt-28">
-        <div className="flex flex-col-reverse gap-8 lg:flex-row lg:items-start lg:justify-between lg:gap-16">
+        <div className="flex flex-col-reverse gap-8 lg:flex-row lg:items-center lg:justify-between lg:gap-16">
           <h1 className="max-w-4xl text-balance text-4xl font-semibold leading-[1.12] tracking-tight sm:text-5xl">
             {site.headline}
           </h1>
