@@ -40,7 +40,15 @@ export default function Home() {
             href={site.links.email}
             className="rounded-lg bg-fg px-5 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-85"
           >
-            Get in touch
+            Email me
+          </a>
+          <a
+            href={site.links.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg border border-line px-5 py-2.5 text-sm font-medium transition-colors hover:border-fg"
+          >
+            WhatsApp
           </a>
           <ResumeButton />
         </div>
