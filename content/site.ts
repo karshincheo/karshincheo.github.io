@@ -62,7 +62,7 @@ export const site = {
     email: "mailto:karshin@mit.edu",
     whatsapp: "https://wa.me/60136669949",
     linkedin: "https://www.linkedin.com/in/karshincheo/",
-    github: "", // TODO: add your GitHub profile URL — proof for the shipping story
+    github: "https://github.com/karshincheo",
     x: "", // TODO: add your X/Twitter URL, e.g. https://x.com/yourhandle
   },
 };

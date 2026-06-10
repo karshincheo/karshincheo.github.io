@@ -89,8 +89,11 @@ export const projects: Project[] = [
     meta: "Ongoing · 2025–present",
     tags: ["Claude Code", "Next.js", "Supabase", "Vercel"],
     links: [
-      // TODO: link your best demos / repos here — this section sells "shipping velocity"
-      { label: "GitHub", href: "" },
+      { label: "GitHub", href: "https://github.com/karshincheo" },
+      {
+        label: "Flagship: kalshi-trading",
+        href: "https://github.com/karshincheo/kalshi-trading",
+      },
     ],
   },
 ];
