@@ -28,11 +28,11 @@ export const site = {
 
   // The headline shown in the hero.
   headline:
-    "AI-native builder, experienced in executing GTM and product strategy",
+    "AI-native builder, experienced in executing GTM and operations strategy",
 
   // Intro paragraphs under the headline.
   bio: [
-    "Ex-Oliver Wyman strategy consultant. I spent years building GTM and product strategy for fintechs, private equity firms, and large corporations across Asia.",
+    "Ex-Oliver Wyman strategy consultant. I spent years building GTM and operations strategy for fintechs, private equity firms, and large corporations across Asia.",
     "Now an MBA at MIT Sloan, transitioning into builder mode — co-founding startups, winning hackathons, and shipping 10+ AI applications along the way.",
   ],
 
