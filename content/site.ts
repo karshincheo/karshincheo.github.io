@@ -51,8 +51,9 @@ export const site = {
   metaDescription:
     "Kar Shin Cheo is an ex-Oliver Wyman strategy consultant and MIT Sloan MBA who builds GTM and product strategy — then executes it by shipping AI products.",
 
-  // Where the resume PDF lives. Replace public/resume.pdf to swap it.
-  resumePath: "/resume.pdf",
+  // Where the resume PDF lives. Replace the file in public/ to swap it —
+  // the filename is what recruiters see when they download it.
+  resumePath: "/Kar Shin Cheo - Resume.pdf",
   email: "karshin@mit.edu",
   location: "Cambridge, Massachusetts",
 

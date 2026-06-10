@@ -96,9 +96,10 @@ and at `/writing/my-post`. No code changes needed.
 
 ### 5. Swap the resume PDF
 
-Replace **`public/resume.pdf`** with your latest resume. Keep the filename
-`resume.pdf` and every "Resume" / "Download resume" button just works.
-(To change the path, update `resumePath` in `content/site.ts`.)
+Replace **`public/Kar Shin Cheo - Resume.pdf`** with your latest resume.
+Keep the same filename and every "Resume" / "Download resume" button just
+works — the filename is what recruiters see when they download it.
+(To change it, rename the file and update `resumePath` in `content/site.ts`.)
 
 ---
 
@@ -135,7 +136,7 @@ content/
   experience.ts      # work history + education            ← edit
   posts/*.mdx        # blog posts                          ← add files
 public/
-  resume.pdf         # your resume                         ← replace
+  Kar Shin Cheo - Resume.pdf   # your resume               ← replace
 src/
   app/               # pages (home, /writing, /writing/[slug]), SEO, styles
   components/        # Header, Footer
