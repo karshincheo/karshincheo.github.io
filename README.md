@@ -1,6 +1,6 @@
 # Kar Shin Cheo — Personal Site
 
-A fast, minimalist, recruiter-facing personal site with a blog that's built to grow.
+A fast, minimalist personal site with a technical blog that's built to grow.
 
 - **Stack:** Next.js 15 (App Router) · Tailwind CSS v4 · MDX · TypeScript
 - **Design:** Near-monochrome, Geist Sans + Geist Mono, one accent color
@@ -41,7 +41,7 @@ Edit **`content/projects.ts`**. Each project is one object in the `projects`
 array, rendered as a card in a horizontally scrolling row.
 
 To add a project, copy an existing block and fill it in. Lead with the
-**outcome** — it's the first thing a recruiter reads:
+**outcome** — it's the first thing a visitor reads:
 
 ```ts
 {
@@ -98,7 +98,7 @@ and at `/writing/my-post`. No code changes needed.
 
 Replace **`public/Kar Shin Cheo - Resume.pdf`** with your latest resume.
 Keep the same filename and every "Resume" / "Download resume" button just
-works — the filename is what recruiters see when they download it.
+works — the filename is what people see when they download it.
 (To change it, rename the file and update `resumePath` in `content/site.ts`.)
 
 ---
