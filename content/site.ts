@@ -28,7 +28,7 @@ export const site = {
 
   // The headline shown in the hero.
   headline:
-    "AI-native builder, experienced in executing GTM and product strategy for corporations across Asia",
+    "AI-native builder, experienced in executing GTM and product strategy",
 
   // Intro paragraphs under the headline.
   bio: [
