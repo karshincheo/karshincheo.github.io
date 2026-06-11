@@ -4,7 +4,7 @@ A fast, minimalist personal site with a technical blog that's built to grow.
 
 - **Stack:** Next.js 15 (App Router) · Tailwind CSS v4 · MDX · TypeScript
 - **Design:** Near-monochrome, Geist Sans + Geist Mono, one accent color
-- **Deploy:** Vercel (zero-config), or any Node host
+- **Deploy:** GitHub Pages (static export via Actions), or any static host
 
 ---
 
@@ -105,25 +105,16 @@ works — the filename is what people see when they download it.
 
 ## Deploy
 
-### Vercel (recommended)
+### GitHub Pages (current setup)
 
-1. Push this folder to a GitHub repo.
-2. Go to [vercel.com/new](https://vercel.com/new), import the repo.
-3. Framework preset auto-detects **Next.js** — no config needed. Click **Deploy**.
-4. Add your custom domain in the Vercel dashboard, then set `url` in
-   `content/site.ts` to that domain and redeploy (improves SEO + social previews).
-
-Or from the CLI:
-
-```bash
-npm i -g vercel
-vercel          # preview deploy
-vercel --prod   # production deploy
-```
+Every push to `main` runs the Actions workflow in `.github/workflows/`, which
+builds the static export (`next build` with `output: "export"`) and publishes it
+to GitHub Pages at the `site.url` domain. No server, no config.
 
 ### Anywhere else
 
-`npm run build` then `npm run start` behind any Node host (Render, Fly, a VPS).
+The build is a fully static export — `npm run build` produces `out/`, which any
+static host (Vercel, Netlify, an S3 bucket) can serve as-is.
 
 ---
 

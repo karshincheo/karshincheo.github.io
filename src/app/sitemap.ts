@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
 import { site } from "@content/site";
+import { getAllPosts } from "@/lib/posts";
 
 export const dynamic = "force-static";
 
-// NOTE: The Writing section is hidden for now. When you re-enable it,
-// restore the /writing routes here (see git history / README).
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.url.replace(/\/$/, "");
   return [
@@ -13,5 +12,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 1,
     },
+    {
+      url: `${base}/writing`,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    ...getAllPosts().map((post) => ({
+      url: `${base}/writing/${post.slug}`,
+      changeFrequency: "yearly" as const,
+      priority: 0.6,
+    })),
   ];
 }

@@ -25,6 +25,12 @@ export function Header() {
           >
             Experience
           </Link>
+          <Link
+            href="/writing"
+            className="hidden rounded-md px-2.5 py-2 text-muted transition-colors hover:text-fg sm:inline-block"
+          >
+            Writing
+          </Link>
           <a
             href={site.resumePath}
             target="_blank"

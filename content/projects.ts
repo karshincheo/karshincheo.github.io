@@ -104,9 +104,10 @@ export const projects: Project[] = [
     links: [
       { label: "GitHub", href: "https://github.com/karshincheo" },
       {
-        label: "Flagship: kalshi-trading",
+        label: "kalshi-trading",
         href: "https://github.com/karshincheo/kalshi-trading",
       },
+      { label: "PolyClaw", href: "https://github.com/karshincheo/PolyClaw" },
     ],
   },
 ];
